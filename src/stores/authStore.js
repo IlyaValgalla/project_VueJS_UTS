@@ -42,7 +42,7 @@ actions: {
                     this.errorMessage = error.response.data.message;
                     console.log(error);
                 } else if (error.request) {
-                    this.errorMessage = error.response.data.message;
+                    this.errorMessage = error.message;
                     console.log(error);
                 } else {
                     console.log(error);
