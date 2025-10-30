@@ -6,6 +6,9 @@ import PrimeVue from 'primevue/config';
 import Aura from '@primevue/themes/aura';
 import 'primeicons/primeicons.css';
 
+import DataTable from 'primevue/datatable';
+import Column from 'primevue/column';
+
 const app = createApp(App);
 app.use(createPinia());
 app.use(router);
@@ -19,5 +22,8 @@ app.use(PrimeVue, {
         }
     }
 });
+
+app.component('DataTable', DataTable); //"Запомни компонент таблицы"
+app.component('Column', Column); // "Запомни компонент колонки"
 
 app.mount('#app')
