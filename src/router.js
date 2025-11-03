@@ -2,7 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router';
 import Home from '@/components/Home.vue';
 import Items from '@/components/Items.vue';
 import Categories from "@/components/Categories.vue";
-import equipment from "@/components/Equipment.vue";
+import Equipment from "@/components/Equipment.vue";
 const routes = [
     {
         path: '/',
@@ -18,7 +18,7 @@ const routes = [
     // },
     {
         path: '/equipment',
-        component: equipment,
+        component: Equipment,
     },
 ];
 const router = createRouter({

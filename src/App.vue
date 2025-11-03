@@ -97,7 +97,7 @@ export default {
         {
           label: 'Товары',
           icon: 'pi pi-fw pi-box',
-          route: '/items',
+          route: '/equipment',
         },
       ],
     };
